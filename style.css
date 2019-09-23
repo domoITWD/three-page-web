@@ -1,0 +1,218 @@
+/*PAGE 1*/
+body {
+  background-color: #90866B;
+  /*Changes the color of the entire page.*/
+}
+
+.heroPhoto {
+  background-image: url('https://frieze.com/sites/default/files/styles/main_image/public/main-images/romare-bearden-pittsburgh-memory_hero.jpg?itok=v2wwvGyu');
+  /*Sets an image for specific div.*/
+  height: 250px;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  background-attachment: scroll;
+  /*This means the hero image will scroll with the user.*/
+  border-style: double;
+  border-width: 75px;
+  border-color: #1E261D
+}
+
+.mainTitle {
+  background-color: #1E261D;
+  font-family: 'Josefin Slab';
+  /*This is where I used the font I embedded.*/
+  font-weight: bolder;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 9px;
+  color: #D9BBA0;
+  font-size: 75px;
+}
+
+.logo {
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  text-decoration: overline;
+  position: fixed;
+  right: 30px;
+  top: 20px;
+  padding: 15px;
+}
+
+.menu {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  padding: 30px;
+  margin: 30px;
+}
+
+.navLink {
+  background-color: black;
+  /*This specifically changes the backround color of the div class 'navlink'. Here I used a hex number.*/
+  position: relative;
+  right: 90px;
+  font-size: 20px;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  text-decoration: none;
+  text-decoration: overline;
+  text-transform: uppercase;
+  color: white;
+  font-size: 25px;
+  border-style: solid;
+  border-color: #1E261D;
+  border-width: thick;
+  float: right;
+  /* This property is used for positioning and formatting content. */
+}
+
+.indexText {
+  font-family: 'Josefin Slab';
+  color: #D9BBA0;
+  font-weight: bolder;
+  font-size: 30px;
+  display: inline-block;
+  margin: 10px;
+  text-align: justify;
+  /* Creates equal spacing between words/characters. */
+}
+
+#indexImg {
+  /*ID*/
+  position: relative;
+  top: 40px;
+  /*This property value alloweded me to have more flexibility when adjusting my image.*/
+  background-image: url('https://images.squarespace-cdn.com/content/v1/55e5e2bbe4b052c4ea31e8d9/1551445260165-7HPKJWMPWVJ99VUMZNIW/ke17ZwdGBToddI8pDm48kL0z-Iqyy70FwBMWI_AOi_hZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIxIsPJBfypDnQAzoUcC1G0C9BDN4X78I_BRXaR64RkHwKMshLAGzx4R3EDFOm1kBS/TOOFutureRomantic.jpg?format=300w');
+  width: 100%;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  opacity: 0.7;
+  padding-top: 10px;
+}
+
+.footer {
+  position: relative;
+  top: 100px;
+  color: #E4EAF2;
+  text-align: center;
+  opacity: 0.5;
+  font-size: 25px;
+}
+
+/*PAGE 2*/
+/*PAGE 3*/
+.logo3 {
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  text-decoration: overline;
+  position: fixed;
+  right: 30px;
+  top: 20px;
+  padding: 15px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 75px;
+  background-color: #A67A46;
+  border-style: double;
+  border-color: #A67A46;
+  color: white;
+  text-align: center;
+  text-decoration: overline;
+  border-color: black;
+  border-width: thick;
+  padding: 10px;
+}
+
+h2 {
+  color: white;
+  text-decoration: overline;
+  text-align: left;
+  font-size: 25px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: 90px;
+}
+
+.artistImg1 {
+  background-image: url('https://filthydreams.files.wordpress.com/2018/10/to18-044_tbt_lr-e1540316607541.jpg');
+  width: 610px;
+  height: 380px;
+  border-style: double;
+  border-width: thick;
+  border-color: black;
+  float: right;
+  padding-top: 10px;
+  margin-top: 310px;
+}
+
+h3 {
+  color: white;
+  text-decoration: overline;
+  text-align: left;
+  font-size: 25px;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+}
+
+.artistImg2 {
+  background-image: url('https://lh3.googleusercontent.com/0x6nXMidLBA9YoefP9ebmswEp6OeY6uHGGFMRg7Ckk0rIvZgFno__e1plfUiX-eM0O9IQ_N0QSp9f3FS6csijeM6z3FMSQeN=s936-l85');
+  width: 610px;
+  height: 380px;
+  border-style: double;
+  border-width: thick;
+  border-color: black;
+  position: relative;
+  top: 10px;
+}
+
+h4 {
+  color: white;
+  text-decoration: overline;
+  text-align: left;
+  font-size: 25px;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+}
+
+.artistImg3 {
+  background-image: url('https://nasher.duke.edu/wp-content/uploads/2018/01/nasher-abney-First_and_Last.jpg');
+  width: 610px;
+  height: 380px;
+  border-style: double;
+  border-width: thick;
+  border-color: black;
+  position: relative;
+  top: 10px;
+}
+
+.navLink2 {
+  float: right;
+  text-decoration: none;
+  position: relative;
+  top: 50px;
+  color: white;
+  text-decoration: overline;
+  text-align: left;
+  font-size: 25px;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footer2 {
+  position: relative;
+  top: 100px;
+  color: #E4EAF2;
+  text-align: center;
+  opacity: 0.5;
+  font-size: 25px;
+}
